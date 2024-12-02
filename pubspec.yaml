@@ -1,0 +1,46 @@
+name: flutter_project_template
+description: "A boilerplate Flutter project with basic necessities."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+# Remove packages you do not require
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  get: ^4.6.6
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  intl: ^0.20.1
+  logger: ^2.5.0
+  mime: ^2.0.0
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
