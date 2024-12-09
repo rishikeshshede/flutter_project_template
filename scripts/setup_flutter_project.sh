@@ -26,7 +26,7 @@ fi
 TEMPLATE_DIR="$(pwd)"
 TARGET_DIR="../$PROJECT_NAME"
 
-FOLDERS_TO_COPY=("apks" "assets" "scripts" "lib", "test")
+FOLDERS_TO_COPY=("apks" "assets" "scripts" "lib" "test")
 FILES_TO_COPY=(".env" "pubspec.yaml")
 
 # Step 1: Create the Flutter project
