@@ -25,7 +25,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 24.0.fSize(context)),
       fontWeight: FontWeight.w700,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -33,7 +33,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 20.0.fSize(context)),
       fontWeight: FontWeight.w600,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -41,7 +41,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 18.0.fSize(context)),
       fontWeight: FontWeight.w500,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -49,7 +49,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 16.0.fSize(context)),
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -57,7 +57,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 14.0.fSize(context)),
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -65,7 +65,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 14.0.adaptSize(context)),
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textSecondary,
+      color: color ?? AppColors.textGrey,
     );
   }
 
@@ -81,7 +81,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 12.0.fSize(context)),
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -89,7 +89,7 @@ class AppTextTheme {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 10.fSize(context)),
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 
@@ -99,7 +99,7 @@ class AppTextTheme {
       fontSize:
           _getResponsiveFontSize(context, fontSize ?? 12.0.fSize(context)),
       fontWeight: fontWeight ?? FontWeight.w400,
-      color: color ?? AppColors.textPrimary,
+      color: color ?? AppColors.textDark,
     );
   }
 }

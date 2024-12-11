@@ -8,23 +8,23 @@ ThemeData theme({bool isDarkMode = false}) {
       ? const ColorScheme.dark(
           primary: AppColors.primary,
           secondary: AppColors.secondary,
-          surface: AppColors.black,
-          onSurface: AppColors.textPrimary,
+          surface: AppColors.backgroundDark,
+          onSurface: AppColors.textLight,
         )
       : const ColorScheme.light(
           primary: AppColors.primary,
           secondary: AppColors.secondary,
-          surface: AppColors.background,
-          onSurface: AppColors.textPrimary,
+          surface: AppColors.backgroundLight,
+          onSurface: AppColors.textDark,
         );
 
   // Returning the theme with the appropriate configurations
   return ThemeData(
     primaryColor: AppColors.primary,
-    scaffoldBackgroundColor: AppColors.background,
+    scaffoldBackgroundColor: AppColors.backgroundLight,
     fontFamily: "Poppins",
     visualDensity: VisualDensity.adaptivePlatformDensity,
-    unselectedWidgetColor: AppColors.disabled,
+    unselectedWidgetColor: AppColors.greyDisabled,
     colorScheme: colorScheme,
   );
 }

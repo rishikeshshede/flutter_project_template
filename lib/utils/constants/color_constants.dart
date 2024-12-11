@@ -2,36 +2,30 @@ import 'package:flutter/material.dart';
 
 /// A centralized class for managing app colors.
 class AppColors {
-  // Primary Colors
-  static const Color primaryDark = Color(0xFF03045E);
-  static const Color primary = Color(0xFF0077B6);
-  static const Color primaryLight = Color(0xFF00B4D8);
+  // Primary Color
+  static const Color primary = Color(0xFF1757FF);
 
-  // Secondary & Accent Colors
-  static const Color secondary = Color(0xFF48CAE4);
-  static const Color accent = Color(0xFFADE8F4);
+  // Secondary Colors
+  static const Color secondary = Color(0xFF050C9C);
 
-  // Background and Surface Colors
-  static const Color background = Color(0xFFFFFFFF);
-  static const Color disabled = Color(0xFFEEEEEE);
+  // Accent Colors
+  static const Color accent = Color(0xFF857CCE);
 
-  // Text Colors
-  static const Color textPrimary = Color(0xFF001D3D);
-  static const Color textSecondary = Color(0xFF657D88);
+  // Neutral Colors (Background and Text)
+  static const Color backgroundLight = Color(0xFFFBFBFB);
+  static const Color backgroundDark = Color(0xFF252525);
 
-  // Highlight Colors
-  static const Color red = Color(0xFFDE3939);
-  static const Color green = Color(0xFF1FB453);
-  static const Color black = Color(0xFF0F0F0F);
-  static const Color white = Color(0xFFFFFFFF);
-  static const Color grey = Color(0xFF98A2B3);
+  static const Color textLight = Color(0xFFFBFBFB);
+  static const Color textDark = Color(0xFF212427);
+  static const Color textGrey = Color(0xFF212427);
+
+  // Supporting Colors
+  static const Color error = Color(0xFFFF2929);
+  static const Color success = Color(0xFF06D001);
+  static const Color greyDisabled = Color(0xFFB4B4B8);
 
   // Gradients
   /// Primary gradient used across the app.
-  static const List<Color> gradientPrimary = [
-    primaryLight,
-    primary,
-    primaryDark,
-  ];
-  static const List<double> gradientPrimaryStops = [0.25, 0.5, 0.75];
+  static const List<Color> gradientPrimary = [secondary, primary];
+  static const List<double> gradientPrimaryStops = [0.35, 0.75];
 }
