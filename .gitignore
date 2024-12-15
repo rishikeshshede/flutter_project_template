@@ -10,6 +10,7 @@
 .svn/
 migrate_working_dir/
 .metadata
+Searching
 
 # Removed for now
 analysis_options.yaml

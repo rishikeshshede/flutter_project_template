@@ -21,7 +21,7 @@ class AppTextTheme {
     }
   }
 
-  static TextStyle titleLarge(BuildContext context, Color? color) {
+  static TextStyle titleLarge(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 24.0.fSize(context)),
       fontWeight: FontWeight.w700,
@@ -29,7 +29,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle title(BuildContext context, Color? color) {
+  static TextStyle title(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 20.0.fSize(context)),
       fontWeight: FontWeight.w600,
@@ -37,7 +37,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle subtitle(BuildContext context, Color? color) {
+  static TextStyle subtitle(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 18.0.fSize(context)),
       fontWeight: FontWeight.w500,
@@ -45,7 +45,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle medium(BuildContext context, Color? color) {
+  static TextStyle medium(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 16.0.fSize(context)),
       fontWeight: FontWeight.w400,
@@ -53,7 +53,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle body(BuildContext context, Color? color) {
+  static TextStyle body(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 14.0.fSize(context)),
       fontWeight: FontWeight.w400,
@@ -61,7 +61,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle bodySecondary(BuildContext context, Color? color) {
+  static TextStyle bodySecondary(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 14.0.adaptSize(context)),
       fontWeight: FontWeight.w400,
@@ -69,7 +69,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle button(BuildContext context, Color? color) {
+  static TextStyle button(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 14.0.fSize(context)),
       fontWeight: FontWeight.w500,
@@ -77,7 +77,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle small(BuildContext context, Color? color) {
+  static TextStyle small(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 12.0.fSize(context)),
       fontWeight: FontWeight.w400,
@@ -85,7 +85,7 @@ class AppTextTheme {
     );
   }
 
-  static TextStyle extraSmall(BuildContext context, Color? color) {
+  static TextStyle extraSmall(BuildContext context, {Color? color}) {
     return TextStyle(
       fontSize: _getResponsiveFontSize(context, 10.fSize(context)),
       fontWeight: FontWeight.w400,

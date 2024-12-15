@@ -59,7 +59,7 @@ extension ResponsiveExtension on num {
   /// Set text font size proportionally, factoring in the device's text scale factor.
   double fSize(BuildContext context) {
     final textScaler = MediaQuery.textScalerOf(context);
-    return adaptSize(context) * (textScaler as num).toDouble();
+    return adaptSize(context) * textScaler.scale((.8));
   }
 }
 
