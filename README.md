@@ -116,7 +116,7 @@ chmod +x scripts/create_feature.sh
 Then, create feature:
 
 ```sh
-./scipts/create_feature.sh feature_name
+./scripts/create_feature.sh feature_name
 ```
 
 ## 🌍 Get Involved
